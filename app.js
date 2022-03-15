@@ -6,7 +6,7 @@ import { init, cleanup } from './whatsapp.js'
 
 const app = express()
 const host = process.env.HOST
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 3001
 
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
